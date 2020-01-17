@@ -11,16 +11,19 @@ Amazon  IOT 1-click button:
 https://www.amazon.com/dp/B075FPHHGG?ref=ppx_pop_mob_ap_share
 
 ## Print
-STL
+Download and print this file:  
+https://www.thingiverse.com/thing:4107176  
 
-## Steps
+This will house the arduino and servo.  
 
-Put the Arduino and motor together
-CABLING / WHAT PIN ON THE ARDUINO
+### Connect the Arduino and the Servo
+Attach the servo to the Arduino. 
+- Black to ground
+- White to 5v+
+- Grey to D4 (Pin digital 4)
 
-Digital 4 -- pin
 
-### Set up the Arduino
+### Load the Arduino code
 - Hook up the Arduino to your computer. You'll need a couple of supporting libraries to be able to communicate to it. 
 - In arduino_code.ino, update these two lines:
     - ESP8266WebServer server(5646);   // Update 5646 to whatever port you  would like to have the Arduino's webserver running on
@@ -41,11 +44,8 @@ Digital 4 -- pin
 - Replace the IP and port with the IP and port of your Arduino.
 
 
-post stl to thingiverse
-notes about needing a spacer on the bottom
-
-To edit on the code:
-
-Make  sure  the motor is facing the right way
-Update the IP
-Set up port forwarding
+### Install and test
+- notes about needing a spacer on the bottom
+- adjust the arm
+- install the servo in the housing and screw it in
+- Make  sure  the motor is facing the right way
