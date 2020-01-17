@@ -2,10 +2,13 @@
 ## Parts Needed
 
 Arduino ESP8266:  
-https://www.amazon.com/gp/product/B010N1SPRK/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1
+https://www.amazon.com/gp/product/B010N1SPRK
 
 Servo:  
-https://www.amazon.com/gp/product/B073F4TRSK/ref=ppx_yo_dt_b_asin_title_o07_s02?ie=UTF8&psc=1
+https://www.amazon.com/gp/product/B073F4TRSK
+
+Arduino > Servo Jumper Cables:
+https://www.amazon.com/Antrader-Ribbon-Cables-Arduino-Raspberry/dp/B07RYM1L3Z
 
 Amazon  IOT 1-click button:  
 https://www.amazon.com/dp/B075FPHHGG?ref=ppx_pop_mob_ap_share
@@ -20,7 +23,9 @@ This will house the arduino and servo.
 Attach the servo to the Arduino. 
 - Black to ground
 - White to 5v+
-- Grey to D4 (Pin digital 4)
+- Grey to D4 (Pin digital 4)  
+
+If you have a soldering iron, you can cut/shorten the cables so that there's less spare wire in the final assembly. 
 
 
 ### Load the Arduino code
@@ -44,8 +49,14 @@ Attach the servo to the Arduino.
 - Replace the IP and port with the IP and port of your Arduino.
 
 
-### Install and test
-- notes about needing a spacer on the bottom
-- adjust the arm
-- install the servo in the housing and screw it in
-- Make  sure  the motor is facing the right way
+### Package
+- Install the Arduino and servo in the housing. Ensure that when the button is pressed and the servo  moves, that it initially moves CCW. If it moves clockwise initially, flip it over. 
+- Use small/short screws to lock the servo into place. 
+
+### Adjust
+- Put the assembly over the button you're trying to press
+- The servo arm can be moved by removing the screw on the front, and then pulling/rotating/reinstalling the arm. This is a great first adjustment for the arm angle. 
+- If you need the arm to press less on the button, you can put a spacer under the motor/Arduino assembly so that it's less low at the bottom of its travel
+
+
+Happy Button Pressing!
